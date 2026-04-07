@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { posts } from "../../data/posts";
-import PostCard from "../blog/PostCard";
+import PostCard from "../blog/postcard";
 
 export default function FeaturedPosts() {
   const featured = posts.filter((p) => p.featured).slice(0, 2);

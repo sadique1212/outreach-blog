@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Sparkles } from "lucide-react";
-import Mascot from "../mascot/Mascot";
+import Mascot from "../mascot/mascot";
 
 export default function HeroSection() {
   return (
