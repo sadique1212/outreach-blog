@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import PostCard    from "../components/PostCard";
-import SearchBar  from "../components/SearchBar";
-import TagFilter  from "../components/TagFilter";
+import PostCard from "../components/blog/postcard";
+import SearchBar from "../components/blog/SearchBar";
+import TagFilter from "../components/blog/TagFilter";
 import { posts }  from "../data/posts";
 
 const ALL_TAGS = ["All", ...Array.from(new Set(posts.flatMap((p) => p.tags)))];

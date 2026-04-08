@@ -1,5 +1,5 @@
 import { useInView } from "../../hooks";
-import { achievements } from "../../data/posts";
+import posts from "../../data/posts";
 
 function TimelineItem({ item, index, side }) {
   const [ref, inView] = useInView(0.15);
@@ -81,7 +81,7 @@ export default function Timeline() {
         <div className="absolute left-2 md:left-1/2 top-0 bottom-0 w-px md:-translate-x-0.5 timeline-line" />
 
         <div className="flex flex-col gap-10 pl-8 md:pl-0">
-          {achievements.map((item, i) => (
+          {posts.map((item, i) => (
             <TimelineItem
               key={item.year}
               item={item}

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Zap, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
+import { Zap, Heart, Star, User } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -82,4 +82,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+}   

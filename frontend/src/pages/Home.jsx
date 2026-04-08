@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import BotMascot  from "../components/BotMascot";
-import Timeline   from "../components/Timeline";
-import PostCard   from "../components/PostCard";
+import BotMascot from "../components/mascot/BotMascot";
+import Timeline from "../components/Timeline/Timeline";
+import PostCard from "../components/blog/postcard";
 import { posts }  from "../data/posts";
 
 // Staggered animation variants
